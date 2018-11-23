@@ -18,7 +18,8 @@ def speak_to_grandma(phrase)
     "NO, NOT SINCE 1938!"
   elsif phrase == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
-  elsif phrase == phrase.capitalize && phrase != "I LOVE YOU GRANDMA!"
+  #elsif phrase == phrase.capitalize && phrase != "I LOVE YOU GRANDMA!"
+  else
     "HUH?! SPEAK UP, SONNY!"
   end
 end
